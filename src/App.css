@@ -18,10 +18,34 @@
   margin: 0 auto;
   width: 350px;
   height: 350px;
+  cursor: pointer;
+}
+.GiftBox.puppy {
   background-image: url('/puppy.jpg')
+}
+.GiftBox.gitten {
+  background-image: url('/gitten.jpg')
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 3000ms ease-in;
 }
