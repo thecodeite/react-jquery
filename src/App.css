@@ -14,8 +14,11 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.GiftBox {
+  margin: 0 auto;
+  width: 350px;
+  height: 350px;
+  background-image: url('/puppy.jpg')
 }
 
 @keyframes App-logo-spin {
